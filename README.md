@@ -7,13 +7,13 @@ POST  url/advertisements/
 json
 {    "description": "a",
     "headline": "q",
-    "owner": "Родион"}
+    "Owner": "Родион"}
 
 GET url/advertisements/1
 
 PATCH url/advertisements/1
 
 json
-{"owner": "Алиса"}
+{"Owner": "Алиса"}
 
 DELETE url/advertisements/1
